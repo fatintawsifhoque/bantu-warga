@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: poppins;
+}
+.nav {
+  height: 92px;
+  width: 100%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(117, 116, 116, 0.1);
+  align-items: center;
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+nav {
+  margin-left: 120px;
+  padding-right: 400px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: blue;
+}
+
+.btn button {
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #5669ff;
+  color: white;
+  border-color: transparent;
+}
+
+.gap {
+  height: 10px;
+  width: 6%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+.color {
+  color: rgb(86, 105, 255);
+}
+
+.right h2 {
+  font-size: 52px;
+}
+
+.right p {
+  font-weight: 400;
+}
+.input {
+  height: 56px;
+  width: 405px;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 14px;
+  box-shadow: 2px 2px 8px #d6d6d6;
+}
+
+.right .i {
+  height: 37px;
+  width: 54px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #5669ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 320px;
+  top: -50px;
+}
+/* .left{
+    display: flex;
+    
+} */
+
+.right-img {
+  position: relative;
+  left: 50px;
+}
+.left-img {
+  position: relative;
+  left: 220px;
+  top: -150px;
+  rotate: 5deg;
+}
+
+.card-section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.card-part h2 {
+  font-size: 52px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  box-shadow: 2px 2px 8px #d6d6d6;
+  height: 244px;
+  width: 250px;
+}
+
+.card-design-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-sec {
+  display: flex;
+  justify-content: center;
+}
+.Group {
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 40%;
+}
+
+h6 {
+  color: #5669ff;
+}
+.a {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  background-color: #5669ff;
+  height: 473px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.footer-left {
+  width: 25%;
+}
+.icons {
+  width: 179.54px;
+  height: 29.71px;
+}
+.icons i{
+  width: 30px;
+height: 30px;
+color: white;
+
+}
+
+
+.footer-right{
+  display: flex;
+  padding-left: 200px;
+  gap:80px;
+}
